@@ -1,0 +1,75 @@
+h2{
+    color: aqua;
+}
+body{
+    background-color: grey;
+}
+.flex-item{
+    display: inline;
+    margin-left: 150px;
+    list-style-type: none;
+    padding: 0;
+}
+
+a:active{
+    background-color:darkgreen
+}
+a:hover{
+    color: bisque;
+}
+table,th,td{
+    border: 2px rgb(100, 106, 112) solid;
+}
+#flexbox1{
+    margin: 5%;
+    padding: 1%;
+    border: solid 1px ;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}#flexbox2{
+    margin: 8%;
+    padding: 1%;
+    border: solid 1px ;
+    width: auto;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+}
+#flexbox3{
+    animation-name: example;
+    margin: 3%;
+    padding: 1%;
+    border: solid 1px ;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    background-color: red;
+    animation-name: ani1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+img:hover{
+    transform: scale(1.1);
+}
+footer{
+    background-color: rgb(161, 148, 148);
+}
+p:hover{
+    color: red;
+}
+
+@keyframes ani1 {
+    from {background-color: grey;}
+    to {background-color: rgb(94, 85, 85);}
+  }
+ @keyframes ani2 {
+    0%   { left: 0px; bottom: 0px;}
+    50%  { left: 300px; bottom: 0px;}
+    100% { left: 300px; bottom: 200px;}  }
+@keyframes ani3 {
+     0%   { left: 0px; }
+    50%  { left:30% }
+  100% { left: 30%; }  }
+    
